@@ -1,0 +1,59 @@
+:root{
+    --color1: #fafafa;
+    --color2: #fabc62;
+    --color3: #e45e65;
+    --color4: #004743;
+}
+*{
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color4);
+    flex-direction: column;
+}
+
+.title {
+    color: var(--color1);
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: var(--color1);
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+.main {
+    color: var(--color1);
+}
+
+.title-body {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: black
+}
+
+section {
+    padding: 20px;
+}
+
+.concept {
+    width: 600px;
+}
+
+.align-concept {
+    display: flex;
+}
